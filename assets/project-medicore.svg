@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 420" role="img" aria-labelledby="title desc">
+  <title id="title">MediCore mobile app screenshot in phone mockup</title>
+  <desc id="desc">A portrait phone mockup containing the MediCore staff login screenshot with medical background, status bar, login panel, and sign in button.</desc>
+  <defs>
+    <linearGradient id="stage" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#d8ecff"/>
+      <stop offset=".48" stop-color="#8fbce9"/>
+      <stop offset="1" stop-color="#20315f"/>
+    </linearGradient>
+    <linearGradient id="screenBg" x1="0" y1="0" x2=".9" y2="1">
+      <stop offset="0" stop-color="#d8eaff"/>
+      <stop offset=".55" stop-color="#9fc8ee"/>
+      <stop offset="1" stop-color="#31527e"/>
+    </linearGradient>
+    <linearGradient id="loginPanel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#59636e"/>
+      <stop offset="1" stop-color="#24313b"/>
+    </linearGradient>
+    <linearGradient id="aqua" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#74d9ff"/>
+      <stop offset="1" stop-color="#34d3bd"/>
+    </linearGradient>
+    <linearGradient id="field" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#263646"/>
+      <stop offset="1" stop-color="#1b2733"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-20%" width="160%" height="150%">
+      <feDropShadow dx="0" dy="22" stdDeviation="22" flood-color="#07111f" flood-opacity=".36"/>
+    </filter>
+    <clipPath id="screenClip">
+      <rect x="373" y="28" width="214" height="364" rx="31"/>
+    </clipPath>
+  </defs>
+
+  <rect width="960" height="420" fill="url(#stage)"/>
+  <path d="M0 326c110-42 215-10 330-31 168-31 235-113 397-103 94 6 166 39 233 74v154H0z" fill="#fff" opacity=".18"/>
+  <g opacity=".28" fill="#ffffff">
+    <circle cx="112" cy="72" r="10"/>
+    <circle cx="172" cy="130" r="6"/>
+    <circle cx="255" cy="64" r="4"/>
+    <circle cx="742" cy="78" r="11"/>
+    <circle cx="828" cy="154" r="7"/>
+    <circle cx="792" cy="230" r="5"/>
+  </g>
+  <g opacity=".38" stroke="#ffffff" stroke-width="11" stroke-linecap="round" fill="none">
+    <path d="M112 308c38-16 84-18 139-6"/>
+    <path d="M146 333c31 9 56 8 94-3"/>
+    <path d="M730 92c69-28 118-9 140 37"/>
+    <path d="M780 112c14 29 32 52 61 65"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="360" y="14" width="240" height="392" rx="42" fill="#071423"/>
+    <rect x="373" y="28" width="214" height="364" rx="31" fill="url(#screenBg)"/>
+    <g clip-path="url(#screenClip)">
+      <rect x="373" y="28" width="214" height="364" fill="url(#screenBg)"/>
+      <path d="M373 270c44-22 94-14 143-34 34-14 48-43 71-53v209H373z" fill="#6fa8df" opacity=".62"/>
+      <path d="M373 356h214v36H373z" fill="#061527"/>
+      <path d="M483 20h-6c-5 0-9 4-9 9h24c0-5-4-9-9-9z" fill="#071423"/>
+
+      <text x="388" y="55" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600">13:36</text>
+      <text x="536" y="55" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">19%</text>
+      <g stroke="#ffffff" stroke-width="2" stroke-linecap="round" opacity=".9">
+        <path d="M515 47l9 9M524 47l-9 9"/>
+        <path d="M502 57v-8M507 57v-13M512 57v-18"/>
+      </g>
+
+      <g opacity=".45" stroke="#ffffff" stroke-width="7" stroke-linecap="round" fill="none">
+        <path d="M538 86c27-11 45-4 55 14"/>
+        <path d="M557 92c5 14 12 24 24 31"/>
+        <path d="M370 286c22-9 48-10 76-4"/>
+      </g>
+
+      <rect x="391" y="122" width="178" height="205" rx="22" fill="url(#loginPanel)" opacity=".97"/>
+      <circle cx="548" cy="142" r="15" fill="#465462"/>
+      <g stroke="#ffffff" stroke-width="2" stroke-linecap="round" opacity=".95">
+        <path d="M548 132v4M548 148v4M538 142h4M554 142h4M541 135l3 3M552 149l3 3M555 135l-3 3M544 149l-3 3"/>
+      </g>
+
+      <g transform="translate(424 146)">
+        <path d="M35 8c-8-14-30-6-30 11 0 19 30 38 30 38s30-19 30-38C65 2 43-6 35 8z" fill="url(#aqua)"/>
+        <path d="M35 18v23M24 30h23" stroke="#ffffff" stroke-width="9" stroke-linecap="round"/>
+      </g>
+      <text x="498" y="178" fill="#f8fafc" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="600">Medicore</text>
+
+      <text x="480" y="220" text-anchor="middle" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="27" font-weight="800">Staff Login</text>
+      <text x="480" y="247" text-anchor="middle" fill="#e4e9ef" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="600">Sign in to access your workspace.</text>
+
+      <text x="411" y="279" fill="#7bbcff" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700">Email address *</text>
+      <rect x="410" y="291" width="140" height="28" rx="14" fill="url(#field)" stroke="#4f7da7" stroke-width="1.6"/>
+      <path d="M424 298v17" stroke="#7bbcff" stroke-width="2.4" stroke-linecap="round"/>
+      <text x="429" y="310" fill="#c8d0dc" font-family="Segoe UI, Arial, sans-serif" font-size="13">name@example.com</text>
+
+      <text x="411" y="338" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700">Password *</text>
+      <rect x="410" y="350" width="140" height="28" rx="14" fill="url(#field)" stroke="#34485c" stroke-width="1.5"/>
+      <text x="427" y="369" fill="#aeb8c4" font-family="Segoe UI, Arial, sans-serif" font-size="13">Enter password</text>
+      <path d="M535 364c7-9 16-9 23 0-7 9-16 9-23 0z" fill="none" stroke="#b7c3d1" stroke-width="2"/>
+      <circle cx="546.5" cy="364" r="3" fill="#b7c3d1"/>
+
+      <rect x="410" y="395" width="140" height="30" rx="15" fill="url(#aqua)"/>
+      <text x="480" y="415" text-anchor="middle" fill="#eef7ff" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="800">Sign In</text>
+    </g>
+    <path d="M444 396h72" stroke="#d1d5db" stroke-width="5" stroke-linecap="round"/>
+  </g>
+
+  <g opacity=".78">
+    <rect x="142" y="118" width="150" height="72" rx="20" fill="#ffffff" opacity=".54"/>
+    <rect x="670" y="230" width="150" height="72" rx="20" fill="#ffffff" opacity=".5"/>
+    <path d="M178 145h72M178 167h44M704 257h72M704 279h50" stroke="#59769c" stroke-width="8" stroke-linecap="round" opacity=".5"/>
+    <circle cx="256" cy="152" r="15" fill="#34d3bd" opacity=".6"/>
+    <circle cx="782" cy="264" r="15" fill="#74d9ff" opacity=".55"/>
+  </g>
+</svg>

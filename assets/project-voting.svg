@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 420" role="img" aria-labelledby="title desc">
+  <title id="title">Web voting system</title>
+  <desc id="desc">A secure voting interface with ballot choices, a check mark, and protected database records.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2563eb"/>
+      <stop offset="1" stop-color="#7c3aed"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#172554" flood-opacity=".3"/>
+    </filter>
+  </defs>
+  <rect width="960" height="420" fill="url(#bg)"/>
+  <rect x="140" y="68" width="680" height="284" rx="34" fill="#ffffff" opacity=".94" filter="url(#shadow)"/>
+  <rect x="190" y="112" width="338" height="194" rx="24" fill="#f8fafc"/>
+  <rect x="574" y="112" width="196" height="194" rx="24" fill="#eef2ff"/>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M237 163h194" stroke="#94a3b8" stroke-width="11"/>
+    <path d="M237 216h194" stroke="#94a3b8" stroke-width="11"/>
+    <path d="M237 269h130" stroke="#94a3b8" stroke-width="11"/>
+    <rect x="460" y="146" width="30" height="30" rx="7" stroke="#cbd5e1" stroke-width="7"/>
+    <path d="M459 216l16 16 32-42" stroke="#16a34a" stroke-width="9"/>
+    <rect x="460" y="252" width="30" height="30" rx="7" stroke="#cbd5e1" stroke-width="7"/>
+  </g>
+  <path d="M644 179v-18c0-30 56-30 56 0v18" fill="none" stroke="#2563eb" stroke-width="12" stroke-linecap="round"/>
+  <rect x="620" y="178" width="104" height="76" rx="18" fill="#2563eb"/>
+  <circle cx="672" cy="214" r="11" fill="#ffffff"/>
+  <path d="M672 224v16" stroke="#ffffff" stroke-width="8" stroke-linecap="round"/>
+</svg>
