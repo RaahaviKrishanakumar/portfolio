@@ -119,7 +119,7 @@ The contact form validates input and shows a success message (currently alerts -
 
 ## Customization Tips
 
-1. **Add CV Download** - Save your resume PDF as `Raahavi_Krishnakumar_CV.pdf` in the portfolio folder
+1. **Add CV Download** - Save your resume PDF as `Raahavi Krishnakumar_CV.pdf` in the portfolio folder
 2. **Integrate Backend** - Connect the contact form to EmailJS or a backend service
 3. **Add More Projects** - Duplicate project cards and update content
 4. **Personal Branding** - Change colors, fonts, and add your logo
