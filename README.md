@@ -84,7 +84,7 @@ Hamburger menu automatically appears on mobile devices (max-width: 768px)
 Project cards, skill cards, and education items animate into view as you scroll
 
 ### Form Handling
-The contact form validates input and shows a success message (currently alerts - can be integrated with a backend)
+The contact form opens a pre-filled email draft addressed to the configured email address.
 
 ## Responsive Breakpoints
 
@@ -120,7 +120,7 @@ The contact form validates input and shows a success message (currently alerts -
 ## Customization Tips
 
 1. **Add CV Download** - Save your resume PDF as `Raahavi_Krishnakumar_CV.pdf` in the portfolio folder
-2. **Integrate Backend** - Connect the contact form to EmailJS or a backend service
+2. **Test Contact Form** - Submit the form and confirm your email app opens a draft
 3. **Add More Projects** - Duplicate project cards and update content
 4. **Personal Branding** - Change colors, fonts, and add your logo
 5. **Blog Section** - Add a blog or articles section
@@ -134,7 +134,7 @@ The contact form validates input and shows a success message (currently alerts -
 ## Future Enhancements
 
 - [ ] Add blog section
-- [ ] Integrate email service for contact form
+- [x] Add direct email contact form fallback
 - [ ] Add project filter/search
 - [ ] Dark mode toggle
 - [ ] Multi-language support

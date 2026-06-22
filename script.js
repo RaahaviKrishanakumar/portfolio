@@ -124,19 +124,36 @@ const contactForm = document.getElementById('contact-form');
 if (contactForm) {
     contactForm.addEventListener('submit', (e) => {
         e.preventDefault();
-        
-        // Get form data
-        const formData = new FormData(contactForm);
-        const name = contactForm.children[0].children[0].value;
-        const email = contactForm.children[1].children[0].value;
-        const subject = contactForm.children[2].children[0].value;
-        const message = contactForm.children[3].children[0].value;
 
-        // Show success message
-        alert(`Thank you for your message, ${name}!\n\nI'll get back to you soon at ${email}.`);
-        
-        // Reset form
-        contactForm.reset();
+        const formStatus = contactForm.querySelector('.form-status');
+        const nameInput = contactForm.querySelector('input[name="name"]');
+        const emailInput = contactForm.querySelector('input[name="email"]');
+        const subjectInput = contactForm.querySelector('input[name="subject"]');
+        const messageInput = contactForm.querySelector('textarea[name="message"]');
+
+        if (formStatus) {
+            formStatus.textContent = '';
+            formStatus.className = 'form-status';
+        }
+
+        const name = nameInput ? nameInput.value.trim() : '';
+        const email = emailInput ? emailInput.value.trim() : '';
+        const subject = subjectInput ? subjectInput.value.trim() : 'Portfolio contact message';
+        const message = messageInput ? messageInput.value.trim() : '';
+        const body = [
+            message,
+            '',
+            `Name: ${name}`,
+            `Email: ${email}`
+        ].join('\n');
+        const mailtoLink = `mailto:raahavik@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+
+        window.location.href = mailtoLink;
+
+        if (formStatus) {
+            formStatus.textContent = 'Your email app should open with the message ready to send.';
+            formStatus.classList.add('success');
+        }
     });
 }
 

@@ -1127,6 +1127,32 @@ body.dark-mode .devicon-github-original {
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
 }
 
+.btn-submit:disabled {
+    cursor: not-allowed;
+    opacity: 0.75;
+    transform: none;
+}
+
+.form-status {
+    min-height: 1.4rem;
+    color: var(--white);
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.form-status.success {
+    color: #dcfce7;
+}
+
+.form-status.error {
+    color: #fee2e2;
+}
+
+.form-status a {
+    color: inherit;
+    text-decoration: underline;
+}
+
 /* Footer */
 .footer {
     background: #222333;
